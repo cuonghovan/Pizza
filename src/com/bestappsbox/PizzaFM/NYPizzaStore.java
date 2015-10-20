@@ -1,6 +1,6 @@
 package com.bestappsbox.PizzaFM;
 
-public class NYPizzaFactory extends PizzaStore {
+public class NYPizzaStore extends PizzaStore {
     Pizza pizza;
     public Pizza createPizza(String pizzaType) {
        if(pizzaType == "cheese")
