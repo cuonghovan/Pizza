@@ -1,4 +1,8 @@
-package com.bestappsbox.PizzaFM;
+package com.bestappsbox.PizzaFM.Test;
+
+import com.bestappsbox.PizzaFM.PizzaStore.ChicagoPizzaStore;
+import com.bestappsbox.PizzaFM.PizzaStore.NYPizzaStore;
+import com.bestappsbox.PizzaFM.PizzaStore.PizzaStore;
 
 /**
  * Created by cuonghv on 10/20/15.

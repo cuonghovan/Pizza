@@ -1,4 +1,8 @@
-package com.bestappsbox.PizzaFM;
+package com.bestappsbox.PizzaFM.PizzaStore;
+
+import com.bestappsbox.PizzaFM.Pizza.ChicagoStyleCheesePizza;
+import com.bestappsbox.PizzaFM.Pizza.ChicagoStyleClamPizza;
+import com.bestappsbox.PizzaFM.Pizza.Pizza;
 
 public class ChicagoPizzaStore extends PizzaStore {
     Pizza pizza;

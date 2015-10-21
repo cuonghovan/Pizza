@@ -1,4 +1,6 @@
-package com.bestappsbox.PizzaFM;
+package com.bestappsbox.PizzaFM.PizzaStore;
+
+import com.bestappsbox.PizzaFM.Pizza.Pizza;
 
 public abstract class PizzaStore {
 
