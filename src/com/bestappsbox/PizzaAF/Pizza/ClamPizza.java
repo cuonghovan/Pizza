@@ -1,4 +1,6 @@
-package com.bestappsbox.PizzaAF;
+package com.bestappsbox.PizzaAF.Pizza;
+
+import com.bestappsbox.PizzaAF.IngredientFactory.IngredientFactory;
 
 /**
  * Created by cuonghv on 10/20/15.

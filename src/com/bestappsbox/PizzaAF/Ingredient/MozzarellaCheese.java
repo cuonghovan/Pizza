@@ -1,9 +1,10 @@
-package com.bestappsbox.PizzaAF;
+package com.bestappsbox.PizzaAF.Ingredient;
+
 
 /**
  * Created by cuonghv on 10/20/15.
  */
-public class MozzarellaCheese implements Cheese{
+public class MozzarellaCheese implements Cheese {
     private String name;
 
     public MozzarellaCheese(){

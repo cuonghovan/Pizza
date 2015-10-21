@@ -1,4 +1,10 @@
-package com.bestappsbox.PizzaAF;
+package com.bestappsbox.PizzaAF.Pizza;
+
+import com.bestappsbox.PizzaAF.Ingredient.Cheese;
+import com.bestappsbox.PizzaAF.Ingredient.Clams;
+import com.bestappsbox.PizzaAF.Ingredient.Dough;
+import com.bestappsbox.PizzaAF.Ingredient.Sauce;
+import com.bestappsbox.PizzaAF.IngredientFactory.IngredientFactory;
 
 public abstract class Pizza {
     private Dough dough;

@@ -1,4 +1,8 @@
-package com.bestappsbox.PizzaAF;
+package com.bestappsbox.PizzaAF.Test;
+
+import com.bestappsbox.PizzaAF.PizzaStore.ChicagoPizzaStore;
+import com.bestappsbox.PizzaAF.PizzaStore.NYPizzaStore;
+import com.bestappsbox.PizzaAF.PizzaStore.PizzaStore;
 
 /**
  * Created by cuonghv on 10/20/15.

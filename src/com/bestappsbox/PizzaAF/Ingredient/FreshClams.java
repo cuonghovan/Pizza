@@ -1,13 +1,15 @@
-package com.bestappsbox.PizzaAF;
+package com.bestappsbox.PizzaAF.Ingredient;
+
 
 /**
  * Created by cuonghv on 10/20/15.
  */
-public class ReggianoCheese implements Cheese{
+public class FreshClams implements Clams {
+
     private String name;
 
-    public ReggianoCheese(){
-        name = "Reggiano Cheese";
+    public FreshClams(){
+        name = "Fresh Clams";
     }
 
     @Override

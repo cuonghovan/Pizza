@@ -1,9 +1,10 @@
-package com.bestappsbox.PizzaAF;
+package com.bestappsbox.PizzaAF.Ingredient;
+
 
 /**
  * Created by cuonghv on 10/20/15.
  */
-public class PlumTomatoSauce implements Sauce{
+public class PlumTomatoSauce implements Sauce {
     private String name;
 
     public PlumTomatoSauce(){

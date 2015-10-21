@@ -1,4 +1,10 @@
-package com.bestappsbox.PizzaAF;
+package com.bestappsbox.PizzaAF.PizzaStore;
+
+import com.bestappsbox.PizzaAF.IngredientFactory.ChicagoIngredientFactory;
+import com.bestappsbox.PizzaAF.IngredientFactory.IngredientFactory;
+import com.bestappsbox.PizzaAF.Pizza.CheesePizza;
+import com.bestappsbox.PizzaAF.Pizza.ClamPizza;
+import com.bestappsbox.PizzaAF.Pizza.Pizza;
 
 public class ChicagoPizzaStore extends PizzaStore {
     private Pizza pizza;

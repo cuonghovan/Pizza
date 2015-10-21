@@ -1,9 +1,10 @@
-package com.bestappsbox.PizzaAF;
+package com.bestappsbox.PizzaAF.Ingredient;
+
 
 /**
  * Created by cuonghv on 10/20/15.
  */
-public class ThinCrustDough implements Dough{
+public class ThinCrustDough implements Dough {
     private String name;
 
     public ThinCrustDough(){
