@@ -17,12 +17,5 @@ public class ChicagoStyleCheesePizza extends Pizza {
         toppings.add("Chicago topping B");
     }
 
-    public void prepare() {
-        System.out.println("Preparing " + name + "...");
-        System.out.println("Adding " + dough + "...");
-        System.out.println("Adding " + sauce + "...");
-        for(int i = 0;i<toppings.size();i++) {
-            System.out.println("Topping " + toppings.get(i) + "...");
-        }
-    }
+
 }
