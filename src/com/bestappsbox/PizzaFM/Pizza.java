@@ -1,8 +1,13 @@
 package com.bestappsbox.PizzaFM;
 
+import java.util.ArrayList;
+
 public abstract class Pizza {
+    private String name;
     private String dough;
     private String sauce;
+    private ArrayList toppings;
+
     public void prepare() {
         System.out.println("Preparing " + name + "...");
         System.out.println("Adding " + dough + "...");
@@ -23,4 +28,19 @@ public abstract class Pizza {
         System.out.println("Boxing...");
     }
 
+    protected void setName(String name){
+        this.name = name;
+    }
+
+    protected void setDough(String dough){
+        this.dough = dough;
+    }
+
+    protected void setSauce(String sauce){
+        this.sauce = sauce;
+    }
+
+    protected void setToppings(ArrayList toppings){
+        this.toppings = toppings;
+    }
 }
